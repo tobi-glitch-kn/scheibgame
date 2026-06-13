@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <!-- Zeichensatz und Seitentitel -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jedi-Abenteuer</title>
+
+  <!-- Verbindet diese Seite mit unserem Weltraum-Design -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Oben: Der Titel des Spiels -->
+  <header>
+    <h1>Jedi-Abenteuer</h1>
+    <p class="untertitel">Notlandung auf dem Wüstenplaneten</p>
+  </header>
+
+  <!-- Mitte: Hier passiert das Spiel -->
+  <main>
+
+    <!-- Hier zeigt JavaScript das Bild zur aktuellen Szene -->
+    <div id="story-bild" class="story-bild"></div>
+
+    <!-- Hier schreibt JavaScript den Text der Geschichte rein -->
+    <div id="story-text">
+      Die Geschichte wird geladen ...
+    </div>
+
+    <!-- Hier legt JavaScript die Entscheidungs-Buttons an -->
+    <div id="choices"></div>
+
+  </main>
+
+  <!-- Lädt unser Spiel-Skript (muss ganz unten stehen) -->
+  <script src="script.js"></script>
+
+</body>
+</html>
