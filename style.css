@@ -19,7 +19,7 @@ body {
 }
 
 /* ============================================
-   KOPFBEREICH – Titel mit Lichtschwert-Glow
+   KOPFBEREICH – Titel mit Leucht-Effekt
    ============================================ */
 
 header {
@@ -27,7 +27,7 @@ header {
   padding: 2rem 1rem 1rem;
 }
 
-/* Die Hauptüberschrift leuchtet blau wie ein Lichtschwert */
+/* Die Hauptüberschrift leuchtet blau wie eine Energie-Klinge */
 h1 {
   margin: 0;
   font-size: 2.2rem;
@@ -148,6 +148,20 @@ main {
   box-shadow:
     0 0 15px rgba(68, 204, 85, 0.6),
     0 0 25px rgba(143, 255, 160, 0.4);
+}
+
+/* ============================================
+   PARODIE-HINWEIS – dezent unten auf der Seite
+   ============================================ */
+
+.parodie-hinweis {
+  max-width: 720px;
+  margin: 2rem auto 2.5rem;
+  padding: 0 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #7a8a9a;
 }
 
 /* ============================================
